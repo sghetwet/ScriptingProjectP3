@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Experimental.Rendering;
 
-public class Player : MonoBehaviour
+public class Player
 {
 
     private int experience;
