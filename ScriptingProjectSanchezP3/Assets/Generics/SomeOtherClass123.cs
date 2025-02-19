@@ -2,12 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerManager : MonoBehaviour
+public class SomeOtherClass123 : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
     {
-        int x = Player1.playerCount;
+        SomeClass123 myClass = new SomeClass123();
+
+        myClass.GenericMethod<int>(5);
     }
 
     // Update is called once per frame

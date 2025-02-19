@@ -2,14 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class SomeClass123 : MonoBehaviour
 {
-
-    public static int playerCount = 0;
+    public T GenericMethod<T>(T param)
+    {
+        return param;
+    }
     // Start is called before the first frame update
     void Start()
     {
-        playerCount++;
+        
     }
 
     // Update is called once per frame
